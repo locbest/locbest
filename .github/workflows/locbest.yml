@@ -3,7 +3,7 @@ on:
   workflow_dispatch: #手動觸發
 jobs:
  OK:
-  runs-on: ubuntu-latest
+  runs-on: ubuntu-24.04
   steps:
    - name: 安裝OpenGL
      run: sudo apt install -y libopengl0
